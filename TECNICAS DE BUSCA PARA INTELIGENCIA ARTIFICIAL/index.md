@@ -45,8 +45,8 @@ Neste Módulo, tem como objetivo resumir os conceitos de TECNICAS DE BUSCA PARA 
 - **Busca em largura** – Explora todos os vizinhos em um nível para depois escolher e aprofundar mais um nível
 - **Busca em profundidade** – Explora um determinado nó e aprofunda em uma única linha (nos primeiros descendentes) até o final que após chegar ele volta um nível e explora o vizinho e assim vai.<br>
 **Busca Heurística** – Exploram informação referente ao problema para obter melhores resultados<br>
-**Busca melhor primeiro** – Explora o nó que é melhor avaliada em uma determinada interação, pode ser revisado<br>
-**Busca Gulosa** – Explora o nó com base na estimativa de custo para obter a solução objetivo, no caso ele não revisa pois ele faz a tentativa de encontrar a melhor solução.<br>
+- **Busca melhor primeiro** – Explora o nó que é melhor avaliada em uma determinada interação, pode ser revisado<br>
+- **Busca Gulosa** – Explora o nó com base na estimativa de custo para obter a solução objetivo, no caso ele não revisa pois ele faz a tentativa de encontrar a melhor solução.<br>
 
 
 # MODULO 3
