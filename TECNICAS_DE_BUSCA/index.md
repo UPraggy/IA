@@ -9,7 +9,7 @@
 
 
 # INTRODUÇÃO
-Neste Módulo, tem como objetivo resumir os conceitos de TECNICAS DE BUSCA PARA INTELIGENCIA ARTIFICIAL.
+Neste Módulo, tem como objetivo resumir os conceitos de TECNICAS DE BUSCA PARA INTELIGENCIA ARTIFICIAL.<br>
 **Ele será resumido em topicos simples com base em alguns conceitos e atividades que constam no Conteúdo digital.**
 
 # MODULO 1
