@@ -10,7 +10,7 @@
 
 
 # INTRODUÇÃO
-Neste Módulo, tem como objetivo resumir os conceitos de Representação de Conhecimento, Raciocínio Automático e Aprendizado.
+Neste Módulo, tem como objetivo resumir os conceitos de Representação de Conhecimento, Raciocínio Automático e Aprendizado.<br>
 **Ele será resumido em topicos simples com base em alguns conceitos e atividades que constam no Conteúdo digital.**
 
 # MODULO 1
