@@ -413,14 +413,91 @@ queens_not_attacking([Q|Qs], Q0, D0) :-
 
 ```
 
-# MODULO 4 - EM BREVE
+# MODULO 4 
 - **[ATIVIDADES MOD 4](#atividades-mod-4)**
 - **[CONCEITOS MOD 4](#conceitos-mod-4)**
 
 ## ATIVIDADES MOD 4
+![image](https://user-images.githubusercontent.com/100146657/164710337-3d37b446-45ff-4823-a507-5ffcb9ef8075.png)
+![image](https://user-images.githubusercontent.com/100146657/164710391-2ad17456-1863-497d-9b2b-75745e7cf07e.png)
 
+![image](https://user-images.githubusercontent.com/100146657/164711202-062c300b-02a5-4b82-8d12-c642343f1021.png)
+![image](https://user-images.githubusercontent.com/100146657/164711230-6cdafbf8-d5ad-4852-9945-657b45edcb83.png)
+![image](https://user-images.githubusercontent.com/100146657/164711251-c7386546-0596-483f-91cb-9aed75ce25c6.png)
+
+> **OBS.:** Sobre o segundo exercicio tem-se os respectivos predicados:<br>
+> **attached(p1,loc1)** - Significa que o pallet p1 está anexado à localização loc1.<br>
+> **in(c1,p1)** - Significa que o container c1 está no pallet p1.<br>
+> **top(c3,p1)** - Significa que o container c3 está no topo do pallet p1.<br>
+> **on(c3,c1)** - Significa que o container c3 está em cima do container c1.<br>
+> **belong(crane1,loc1)** - Significa que o guindaste crane1 está na localização loc1.<br>
+> **empty(crane1)** - Significa que o guindaste crane1 está vazio.<br>
+> **adjacent(loc1,loc2)** - Significa que as localizações loc1 e loc2 são adjacentes.<br>
+> **at(r1,loc2)** - Significa que o robô r1 está na localização loc2.<br>
+> **occupied(loc2)** - Significa que a localização loc2 está totalmente ocupada.<br>
+> **unloaded(r1)** - Significa que o robô não tem cargas.<br>
 
 ## CONCEITOS MOD 4
+**Metodos de planejamento:**
+- **Ações** podem ter precondições (restrições para aplicação da ação) e efeitos (consequências) onde podem ser aplicadas a um estado
+- Os **estados** são representados em um **grafo** e o ato de executar uma **ação** é uma aresta
+- O ato de levar de um **estado** para o outro é fazer uma busca em um **grafo**
+- O objetivo é achar um plano (que contém todas as ações) de modo que o agente consiga atingir seu objetivo ou estado final
+- A dois tipos de planejamento, o **progressivo** (busca pela frente do estado inicial ao final) e o **regessivo** (busca po tras do estado final ao inicial)
+- **Strips** é similar à **busca regressiva**, ou seja, partimos da meta para chegar ao estado inicial, porém utiliza uma estrutura **recursiva** (repetição até que a bsca seja satisfeita, ou seja, o plano contenha uma forma de alcançar o estado final).
+- O algoritmo **Strips** nem sempre acha solução, mesmo se tiver, e pode não achar a solução ótima para alguns casos, o que chamamos de anomalia de **Sussman**.
+
+### PLANEJAMENTO PROGRESSIVO
+- Busca para frente
+- Começa com um **estado inicial** e termina com um **estado final**
+
+#### ABAIXO O CODIGO E EXPLICAÇÃO DE UM EXEMPLO DE BUSCA PROGRESSIVA
+
+![image](https://user-images.githubusercontent.com/100146657/164705371-603376e1-e8a8-4825-80ad-582be19e7471.png)
+
+> As ações ou ações aplicaveis são determinadas pela letra **a** como mostrada na figura e o 
+> cojunto de estados possíveis (consequência das ações) são determinados pela letra **s**.<br>
+> O **s0** é o **estado inicial** e o **sg** é a **meta** ou **estado final**.
+
+### CODIGO
+```python
+BuscaProgressiva(0,s0,g)
+    S <- s0
+    π <- plano vazio
+    while
+       if s satisfizer meta g
+          return π
+          
+       acoes_aplicaveis <- {selecionar ações aplicáveis}
+       
+ 	    if acoes_aplicaveis == Ø
+               Return failure
+ 	    else
+               a <- escolher uma ação aplicável do conjunto de ações_aplicaveis	        
+               s <- γ(s,a)
+               π <- π.a
+
+```
+### EXPLICAÇÃO
+#### Linhas / descrição
+**1** / Programa chama a função <br> <br>
+**2 e 3** / A variavel **S** recebe **s0 (Estado inicial)** e **π** recebe o plano vazio<br> <br>
+**4** / É iniciado um loop infinito <br> <br>
+**5** / É verificado se **s (estado atual)** satisfaz a **meta g**, ou seja, se o objetivo foi alcançado<br> <br>
+**6** / Caso tenha alcançado (condição satisfeita) será retornado o plano **π** (em outros termos é a rota que deve ser tomada para alcançar o onjetivo como se fosse um mapa)<br> <br>
+**7** / Se não for satisfeita a condição, será selecionado o conjunto de ações aplicadas que o estado tem <br> <br>
+**8 e 9** / Se não houver ações que podem ser aplicadas e será retornado falha <br> <br>
+**10** / Caso contrario <br> <br>
+**11** / É escolhido uma das ações aplicaveis <br> <br>
+**12** / É aplicada a ação **```y(s,a)```** que leva a um proximo estado **```S```** <br> <br>
+**13** / Concatena a ação ao plano que la em cima é retornado contendo todas as ações <br> <br>
+
+
+
+
+
+
+
 
 
 
