@@ -110,34 +110,55 @@ A cada P é necessario verificar a condicão ex: **c|a** que valor **c** assume 
 - **[CONCEITOS MOD 2](#conceitos-mod-2)**
 
 ## ATIVIDADES MOD 2
-![image](https://user-images.githubusercontent.com/100146657/164538297-2013c544-bebf-46f1-8a5f-2e23cf322f65.png)
-![image](https://user-images.githubusercontent.com/100146657/164538304-27d1322e-b14e-407e-8a5e-b0fb361e2d67.png)
-![image](https://user-images.githubusercontent.com/100146657/164538310-31da1eda-e8ea-4082-8787-ad27d3cdf2a5.png)
-![image](https://user-images.githubusercontent.com/100146657/164538317-1a2ae9a9-eea3-471d-b7ef-378a8a514127.png)
 
 
 ## CONCEITOS MOD 2
+**Eventos de incerteza** - São eventos que podem ou não acontecer com alguma chance, dada por uma medida de probabilidade que varia entre 0 e 1.<br>
+**Eventos imprecisos** - Quando se trata de eventos imprecisos, não estamos falando de algo que pode ou não acontecer, mas que acontece de fato, com determinada intensidade que varia entre 0 e 1.
 
-**Sistemas especialistas** – Apoiam profissionais em que conhecimentos formais e adquiridos com experiência são fundamentais (pela entrada de dados por outros profissionais), o objetivo é apoiar na tomada de decisão potencializando o resultado dos profissionais com instrumentos que auxiliam aumentar a escalabilidade das soluções.
-- **Componentes:**
-   - **Motor de inferência**: É o mecanismo que contém as regras para resolver os problemas que fazem parte do escopo do sistema.
-   - **Base de conhecimento**: É repositório de fatos, ou seja, é nele que estão todos os aspectos conhecidos e armazenados
-   - **Interface de usuário**: É por meio desse componente que o usuário interage com o sistema
-<br><br>
+![image](https://user-images.githubusercontent.com/100146657/165302667-08c6d28e-be64-4098-827a-2f65aac051aa.png)
 
-#### PROLOG:
-> Primeiro é criado uma espécie de objeto (animal) em que ele recebe uma entrada (EX: cachorro) e após isso é denominada as características do objeto através de uma função nomeada pelo programador (EX: eh_fato_que()),  dentro da função é colocada as características.<br>
-> **OBS.:** O símbolo **“:-”** significa o condicional **“SE”**
+**0** - Quando o elemento não pertence ao conjunto.
 
-![image](https://user-images.githubusercontent.com/100146657/164539260-fefe2253-e627-4a1d-929f-1707077d1e5a.png)
+**1** - Quando o elemento pertence ao conjunto.
 
-> Após isso o programa é executado chamando a função criada em que Q é a entrada, ou seja, a característica, o format é para formatar o texto para apresentá-lo na tela e o read é apenas para continuar a perguntar.
+### Propriedades das operações com conjuntos tradicionais
+![image](https://user-images.githubusercontent.com/100146657/165302624-1219571a-57b4-4825-9f7e-1b8c9071e6ae.png)
 
-![image](https://user-images.githubusercontent.com/100146657/164539352-ec27bdb9-bfcf-4301-8d6c-7fae28e8f8dd.png)
 
-**Resultado:**
-> Você digita **“animal(X).”**  como entrada e ele inicia o programa com as perguntas.
+### Conjuntos nebulosos
+De acordo com os conjuntos tradicionais é possivel determinar um conjunto e/ou os elementos que o compõe, normalmente é algo preciso, se você retira um elemento
+aquele conjunto deixa de ser o mesmo. Entretando, para aqueles conjuntos imprecisos em que não é facil determinar alguma caracteristica, seja seu conteudo ou propriedades ele é chamado de conjunto nebuloso.<br>
 
-![image](https://user-images.githubusercontent.com/100146657/164539764-a8a07458-8f78-45da-b10e-42e2537cd3fe.png)
+#### Situação precisa: conjunto de laranjas
+Uma laranja lima faz parte do conjunto de laranjas? Obviamente que sim. E quanto a uma maçã? Você certamente não hesitou em responder que não. Podemos dizer com precisão que uma maçã não faz parte do conjunto de laranjas. Estamos diante de uma situação precisa.
+
+#### Situação imprecisa: conjunto de pessoas altas
+Quando uma pessoa começa a ser alta? Podemos dizer que uma pessoa de 1,80 é alta? E se ela estiver ao lado de uma pessoa de 1,95? E uma pessoa de 1,60 pode ser considerada alta? E se essa pessoa de 1,60 tiver 10 anos de idade? A ideia de pessoa alta já não parece tão precisa quanto o conjunto de laranjas, certo?
+
+### Operações com conjuntos nebulosos
+![image](https://user-images.githubusercontent.com/100146657/165304187-12a8d230-6b9e-43e8-8a5a-31aadcfe116a.png)
+![image](https://user-images.githubusercontent.com/100146657/165304127-a91d90bc-e591-42eb-968d-694d5fd40c3f.png)
+
+![image](https://user-images.githubusercontent.com/100146657/165304260-39cf07cf-e2dc-4abd-baef-53ca3ff08678.png)
+![image](https://user-images.githubusercontent.com/100146657/165304286-08af5d49-fb95-45f9-9785-2273635740a7.png)
+
+![image](https://user-images.githubusercontent.com/100146657/165304326-edbc24bc-ecd8-4c18-b411-20e850e16427.png)
+![image](https://user-images.githubusercontent.com/100146657/165304353-d05a45ce-04d8-445f-bcf0-a0e8fe179447.png)
+
+![image](https://user-images.githubusercontent.com/100146657/165304379-142eb793-01bb-4980-8c28-cef91d0b94af.png)
+![image](https://user-images.githubusercontent.com/100146657/165304408-7414e0a5-df98-4623-ba37-faef219306f3.png)
+
+#### Propriedades das operações com conjuntos nebulosos
+**EX:**
+
+![image](https://user-images.githubusercontent.com/100146657/165304477-d5d6c45a-8135-48f1-8c11-a73399347804.png)
+![image](https://user-images.githubusercontent.com/100146657/165304517-a6777e34-9cb9-42e5-957e-36c8903f5a00.png)
+
+
+
+
+
+
 
 
