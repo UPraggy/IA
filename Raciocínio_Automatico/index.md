@@ -18,8 +18,33 @@ Neste Módulo, tem como objetivo resumir os conceitos de Representação de Conh
 - **[CONCEITOS MOD 1](#conceitos-mod-1)**
 
 ## ATIVIDADES MOD 1
+![image](https://user-images.githubusercontent.com/100146657/165299375-48ee3ed7-a87f-4b99-b5e2-eace54184d23.png)
+![image](https://user-images.githubusercontent.com/100146657/165299929-50790840-1197-4bd6-a902-fda773f33eab.png)
+![image](https://user-images.githubusercontent.com/100146657/165300158-55afc623-1926-4f26-81f3-eac1a7237a59.png)
+![image](https://user-images.githubusercontent.com/100146657/165300182-3ee75c42-fd81-44a2-8188-71d23f8477b8.png)
 
+Nessa etapa ele chegou a formula em que **Grama molhada (G)** depende de **Chuva (C)**
 
+![image](https://user-images.githubusercontent.com/100146657/165300346-d2d9db69-828c-492e-83ba-78b9fc1757a3.png)
+
+Como o problema não cita o Regador (R), ele é "descartado" das operações<br>
+Esse "descarte" ver em forma de soma como afirmação do **r** de um lado da soma e negação do **r** no outro lado.
+Assim ele começa a fazer a devida analise e operações na tabela.
+
+![image](https://user-images.githubusercontent.com/100146657/165300653-3b64d9ff-232c-4f6b-bd97-cebbac258e1a.png)
+![image](https://user-images.githubusercontent.com/100146657/165300676-ad5a3dfe-a95c-4365-bc67-7180c8511ee7.png)
+
+Assim como acima no numerador no denominador, não é diferente, a operação de "descarte" também é feita, porém com o **r** e o **c**,
+pois oque queremos agora é apenas o **g**
+
+![image](https://user-images.githubusercontent.com/100146657/165301577-ef4e61b1-bacb-49e2-9efd-ae28b3eecd64.png)
+![image](https://user-images.githubusercontent.com/100146657/165301645-25db8fef-2d2e-4410-b181-c59d9badad7d.png)
+![image](https://user-images.githubusercontent.com/100146657/165301675-9db6f90f-fb25-466c-9ae9-d11d4534f617.png)
+![image](https://user-images.githubusercontent.com/100146657/165301716-c60878b6-64de-453a-8f0d-47cf5a87f171.png)
+
+Ao final é verificado:
+
+![image](https://user-images.githubusercontent.com/100146657/165301805-51ae714d-86b5-40c1-86bc-e21dbdfd0bd1.png)
 
 ## CONCEITOS MOD 1
 ### Variaveis
@@ -75,7 +100,12 @@ Dada a tabela:
 
 #### Redes bayesianas (REDE DE BAYERS)
 **Rede bayesiana** - é um grafo direcionado e acíclico, em que os nós representam as variáveis aleatórias tanto de evidência quanto de hipótese (diagnóstico), e as arestas representam as dependências que existem entre as variáveis.<br>
+**OBS.:**
+![image](https://user-images.githubusercontent.com/100146657/165299751-dac5215f-42f6-4c6d-bf00-c4f810bede5f.png)
 
+![image](https://user-images.githubusercontent.com/100146657/165299476-1d1d7bed-4d7c-4c40-9c78-9392846c151e.png)
+
+A cada P é necessario verificar a condicão ex: **c|a** que valor **c** assume quando a for **V**
 
 # MODULO 2
 - **[ATIVIDADES MOD 2](#atividades-mod-2)**
@@ -111,72 +141,5 @@ Dada a tabela:
 > Você digita **“animal(X).”**  como entrada e ele inicia o programa com as perguntas.
 
 ![image](https://user-images.githubusercontent.com/100146657/164539764-a8a07458-8f78-45da-b10e-42e2537cd3fe.png)
-
-# MODULO 3
-- **[ATIVIDADES MOD 3](#atividades-mod-3)**
-- **[CONCEITOS MOD 3](#conceitos-mod-3)**
-
-## ATIVIDADES MOD 3
-![image](https://user-images.githubusercontent.com/100146657/164539986-730ae08e-f816-4962-a4a4-c4b7a9535cdd.png)
-![image](https://user-images.githubusercontent.com/100146657/164539996-e7b582ca-38bf-4af4-adde-4ad5fdd606a3.png)
-![image](https://user-images.githubusercontent.com/100146657/164540005-551331bb-22bb-4162-9618-54d5e171374b.png)
-![image](https://user-images.githubusercontent.com/100146657/164540020-d5f0380c-206a-47fc-a274-a48122a24b99.png)
-
-
-## CONCEITOS MOD 3
-**Redes neurais artificiais** – são modelos computacionais baseados nos biológicos, composto por entradas e camadas no meio (camadas ocultas)<br>
-**Pesos sinápticos** – importantes no processamento de entradas e reconhecimento de padrões <br>
-**O bia**s – controla a rede <br>
-**Junção de soma** – combina entrada e pesos através de um somatório <br>
-**Função de ativação** - Produz uma determinada saída que é o que interessa.<br>
-Para encontrar os pesos sinápticos é usada a **Função de Perda**:
-
-![image](https://user-images.githubusercontent.com/100146657/164540125-a43ae6eb-e506-4771-9545-03524fa1b442.png)
-
-Quanto mais próximo de 0 menos erros cometidos.
-
-
-# MODULO 4
-- **[ATIVIDADES MOD 4](#atividades-mod-4)**
-- **[CONCEITOS MOD 4](#conceitos-mod-4)**
-
-## ATIVIDADES MOD 4
-![image](https://user-images.githubusercontent.com/100146657/164540318-ed8ce864-942d-413b-b676-00dbbf047fe8.png)
-![image](https://user-images.githubusercontent.com/100146657/164540330-3fab40da-2c00-4d79-a19c-68ad8398105b.png)
-![image](https://user-images.githubusercontent.com/100146657/164540335-cafdbc9a-ec8a-4117-9265-2948801a3254.png)
-![image](https://user-images.githubusercontent.com/100146657/164540341-55a6bed0-b1c2-44d9-bf72-70bb886b82a7.png)
-
-## CONCEITOS MOD 4
-**Rede perceptron** – Objetivo de modelar como o cérebro humano processa dados visuais e aprendia a reconhecer padrões
-
-### Regras de Aprendizado:
-![image](https://user-images.githubusercontent.com/100146657/164540399-3893ccb5-a722-4428-a031-748b7be8b95c.png)
-![image](https://user-images.githubusercontent.com/100146657/164540413-0632b0f5-98a8-4d17-a47b-7bd8bd3568ae.png)
-
-> Peso já atualizado
-
-![image](https://user-images.githubusercontent.com/100146657/164540451-58c56d22-0eba-4c84-b54c-5459aec2f3f5.png)
-
-> Peso anterior
-
-![image](https://user-images.githubusercontent.com/100146657/164540490-dd82967b-7de6-4c7b-9109-ff970ed62669.png)
-
-> **regra de aprendizagem**, **Xi** – valor da entrada, **Yi** – Valor esperado obter, o **N** - taxa de aprendizagem<br><br>
-
-
-![image](https://user-images.githubusercontent.com/100146657/164540684-69e3635a-11a9-4a83-9414-ec4243dddee6.png)
-
-> O **d** é o valor obtido<br><br>
-
-![image](https://user-images.githubusercontent.com/100146657/164540787-a0064b0e-6252-4808-9435-853579112854.png)
-
-> Diferença do valor obtido (**d**) menos o valor Fornecido<br><br>
-
-![image](https://user-images.githubusercontent.com/100146657/164540878-c510b2c2-d3a8-4d4b-81ca-30f3c3c2cf43.png)
-
-> Calcula o peso fazendo além da diferença como o perceptron ele eleva ao quadrado<br><br>
-
-**Backpropagation** – é a aplicação de todas as formulas, o principal método para treinar uma rede neural artificial de múltiplas camadas.
-
 
 
