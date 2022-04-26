@@ -5,8 +5,6 @@
 - **[INTRODUÇÃO](#introdução)**
 - **[MODULO 1](#modulo-1)**
 - **[MODULO 2](#modulo-2)**
-- **[MODULO 3](#modulo-3)**
-- **[MODULO 4](#modulo-4)**
 
 
 # INTRODUÇÃO
