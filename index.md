@@ -7,3 +7,4 @@ Mais especificamente o credito digital sobre **Inteligência Artificial**
 - **[Representação de Conhecimento, Raciocínio Automático e Aprendizado - TERCEIRO TEMA](https://upraggy.github.io/IA/Representação_de_Conhecimento)**
 - **[Planejamento em Inteligência Artificial - QUARTO TEMA](https://upraggy.github.io/IA/Planejamento_IA)**
 - **[Raciocínio Automático em Situações de Incerteza e Imprecisão - QUINTO TEMA](https://upraggy.github.io/IA/Raciocínio_Automatico)**
+- **[SIMULADOS E TESTE DE CONHECIMENTO](https://upraggy.github.io/IA/Simulados_e_Teste)**
