@@ -53,7 +53,6 @@ Para se construir softwares utilizando a IA simbolica é preciso alimentar o sis
 
 ### Paradigma Conexionista
 Principal exemplo são **redes neurais**
-## ATIVIDADES MOD 2
 
 ### Paradigma evolutivo
 Como o proprio nome sugere, é baseado na **Teoria do Evolucionismo**, A vantagem mais significativa da computação evolutiva está na possibilidade de resolver problemas pela simples descrição matemática do que se quer ver presente na solução, não havendo necessidade de indicar explicitamente os passos até o resultado, que certamente seriam específicos para cada caso.<br>
@@ -75,16 +74,30 @@ Ele pode ser de dois tipos:
 #### Paradigma swarm(enxame) 
 Umas das principais características dos algoritmos de enxame (swarm) são o aprendizado e a geração de valor, com pequenas e limitadas quantidades de dados de treino.<br>
 Ele demanda pouco poder computacional em comparação com os outros.
+
 #### Paradigma ensemble
 Combina as características dos paradigmas apresentados, utilizando uma forma previamente determinada, ou fazendo combinação dinâmica, usando a Inteligência Artificial para gerar uma configuração ótima para resolver o problema.
+
+## ATIVIDADES MOD 2
+![image](https://user-images.githubusercontent.com/100146657/166244387-473615f8-5684-4623-857f-8a31ba72c82e.png)
+![image](https://user-images.githubusercontent.com/100146657/166244412-023d3297-d22b-44c5-a02e-72598d33fa99.png)
+
+![image](https://user-images.githubusercontent.com/100146657/166244478-e83dca42-63be-452c-b67a-e71bd38e95f3.png)
+![image](https://user-images.githubusercontent.com/100146657/166244497-540cb2cf-e35a-476a-a632-b5479cc9f4bc.png)
+
 
 # MODULO 3
 - **[ATIVIDADES MOD 3](#atividades-mod-3)**
 - **[CONCEITOS MOD 3](#conceitos-mod-3)**
 
 ## CONCEITOS MOD 3
-
+ESTE MÓDULO APRESENTA APENAS A EXEMPLOS DE APLICAÇÕES DE IA, OU SEJA, NÃO HÁ OU NÂO SERIA EFICIENTE UM RESUMO SOBRE
 ## ATIVIDADES MOD 3
+![image](https://user-images.githubusercontent.com/100146657/166245520-3324f46b-671a-430a-980f-e8f139c2967e.png)
+![image](https://user-images.githubusercontent.com/100146657/166245641-95759c2b-0b95-4980-a2ca-1f7a0c97413d.png)
+
+![image](https://user-images.githubusercontent.com/100146657/166245737-4f957034-d49b-4bf7-9825-f5bcad59fb0b.png)
+![image](https://user-images.githubusercontent.com/100146657/166245753-6c6d9286-0b4f-4927-9951-a39c380e20e1.png)
 
 
 
